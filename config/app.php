@@ -181,7 +181,8 @@ return [
          * External Service Providers
          */
 
-         Nuwave\Lighthouse\LaravelServiceProvider::class,
+        Nuwave\Lighthouse\LaravelServiceProvider::class,
+        Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
     ],
 
     /*
